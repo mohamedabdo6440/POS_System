@@ -1,0 +1,127 @@
+.resetHight{
+ height: calc(100vh - 126.78px);
+}
+
+.cilresetHight{
+  height: calc(100vh - 126.78px);
+}
+.resetHightDefault.resetHight .cilresetHight{
+  height:auto
+}
+.reset {
+  padding: 0 20px;
+}
+.reset h4 {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+}
+.reset hr {
+  opacity: 1;
+  margin: 5px 0;
+}
+.reset h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.reset h5 {
+  color: var(--text-input);
+  font-size: 12px;
+}
+.text-mainControl{
+  color: var(--text-input) !important;
+}
+.reset tbody {
+  font-weight: normal;
+  font-size: 12px;
+}
+.reset th {
+  padding: 0 !important;
+}
+.reset th h5 {
+    color: var(--text-input) !important;
+}
+.reset thead tr {
+  border-bottom: 1px solid var(--text-input);
+}
+.reset tbody tr {
+  border-bottom: 0px solid transparent;
+}
+.reset tbody tr th {
+  height: 50px !important;
+}
+.reset tr th:nth-last-of-type(1) {
+  min-width: 50px;
+  border-right: 0;
+}
+.reset tr th:nth-last-of-type(2) {
+  min-width: 50px;
+}
+.reset tr th:nth-last-of-type(3) {
+  min-width: 50px;
+}
+.reset tr th:nth-last-of-type(4) {
+  min-width: 100px;
+}
+.reset tr th:nth-last-of-type(5) {
+  min-width: 50px;
+}
+.reset th h4 {
+  margin: 0;
+}
+.reset .hightTable {
+  height: 50px;
+  margin: 4px 0;
+  padding: 0 20px;
+  border-right: 1px solid #13b9e2;
+}
+.reset tbody {
+  color: var(--text-input) ;
+}
+.reset button.bg-danger:hover {
+  background: #7a0511 !important;
+  color: white;
+  border-color: #7a0511;
+}
+
+.reset .controlWidthProduct {
+  max-width: 80px;
+}
+.resetTableHight {
+  max-height: 150px;
+}
+.borderTopControl {
+  border-top: 2px solid #6648ca;
+}
+.reset th h5{
+  border: none;
+}
+.borderTopControl button {
+  padding: 5px 60px;
+  font-size: 18px;
+  background-color: #6ee49a;
+  color: #333;
+  box-shadow: 0px 4px 6px #33333396;
+}
+.borderTopControl button:hover {
+  background-color: transparent;
+  border-color: #6ee49a;
+  color: #6ee49a;
+}
+.imgControlReset{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.imgControlReset img{
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1200px){
+  .reset tr th:nth-last-of-type(5){
+    min-width: 100px ;
+    width: 100px ;
+  }
+}

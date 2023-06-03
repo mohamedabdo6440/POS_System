@@ -1,0 +1,63 @@
+.transactionsTable {
+  height: 350px !important;
+  margin-top: 20px;
+}
+.date{
+  color: var(--text-input);
+}
+.transactionsTable h5 {
+  color: var(--text-input);
+  font-weight: normal;
+  text-align: center;
+  border-right: 1px solid #13b9e2;
+}
+.transactionsTable tr th:nth-last-of-type(1) {
+  min-width: 100px;
+  border-right: 0;
+}
+.transactionsTable tr th:nth-last-of-type(2) {
+  min-width: 100px;
+}
+.transactionsTable tr th:nth-last-of-type(3) {
+  min-width: 100px;
+}
+.transactionsTable tr th:nth-last-of-type(4) {
+  min-width: 100px;
+}
+.transactionsTable tr th:nth-last-of-type(5) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(6) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(7) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(8) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(9) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(10) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(11) {
+  min-width: 150px;
+  width: 150px;
+}
+.transactionsTable tr th:nth-last-of-type(12) {
+  min-width: 150px;
+  width: 150px;
+}
+@media screen and (max-width: 1200px) {
+  .transactionsTable .hightTable {
+    border-right: 1px solid #13b9e2;
+  }
+}

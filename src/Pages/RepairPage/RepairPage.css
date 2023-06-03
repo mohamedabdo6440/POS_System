@@ -1,0 +1,165 @@
+.repairBorderBottom{
+    border-bottom: 2px solid #6648ca;
+}
+.repairPage .mode{
+    width: 80px;
+    height: auto;
+    padding: 5px 5px;
+    border-radius:  0;
+    background: #13b9e2;
+}
+.repairPage .active.mode{
+    background: #6648ca;
+}
+.repairPage .mode .modeElement{
+    width: fit-content;
+    height: auto;
+    font-size: 14px;
+}
+.repairPage .mode.active .toggleMode {
+    transform: translate(calc(80px + -27px), -50%);
+    background: #13b9e2;
+}
+.repairPage .mode .toggleMode {
+    background: #6648ca;
+}
+.repairPage .mode .modeElement:nth-last-child(2){
+    opacity: 0;
+  visibility: hidden;
+}
+.repairPage .mode.active .modeElement:nth-last-child(2){
+    opacity: 1;
+    visibility: visible;
+}
+.repairPage .mode.active .modeElement:nth-last-child(1){
+  opacity: 0;
+  visibility: hidden;
+}
+.repairPage .mode .modeElement:nth-last-child(1){
+  opacity: 1;
+  visibility: visible;
+}
+.border-Icon{
+    border-right: 1px solid var(--bg-total);
+}
+.repairPage select{
+    padding: 5px 11px;
+    width: 200px;
+    z-index: 0;
+}
+.repairPage .select::after{
+    padding: 0 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+
+}
+.repairPage .tableRepair tr th:nth-last-of-type(1){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(2){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(3){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(4){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(5){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(7){
+    min-width: 250px;
+    max-width:250px;
+    width: 250px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(8){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(9){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(10){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(11){
+    min-width: 200px;
+    max-width:200px;
+    width: 200px;
+}
+.repairPage .tableRepair tr th:nth-last-of-type(12){
+    min-width: 70px;
+    width: 70px;
+}
+.repairPage .tableProduct{
+    height: calc(100vh - 76px - 36px - 100px);
+}
+.handleHightRepair{
+    height: calc(100vh - 82px);
+}
+.repairPage .tableRepair .table h5{
+    border-right: 1px solid #13b9e2;
+    color: #13b9e2;
+}
+.bgChange{
+    top: 0;
+    right: 0;
+    background: #0a96b9;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    position: absolute;
+    padding: 0 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 100%;
+    z-index: 1;
+}
+ .repairPage .select2::after{
+    display: none;
+ }
+ .handleBgAlert{
+    background-color: #0a96b9;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  background-color 0.3s linear;
+ }
+ .handleBgAlert:hover{
+    background-color: #0a73b9;
+ }
+ .repairPage .resetAbsolute{
+    height: 100%;
+ }
+ .overFlowHideen{
+    overflow-x: hidden;
+ }
+ .repairBorderBottomPop{
+    border: 2px solid var(--bg-total);
+ }
+ .repairPage .textarea{
+    min-height: 200px;
+ }

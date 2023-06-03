@@ -1,0 +1,213 @@
+.h-auto-lg-100 {
+  height: 100%;
+}
+.repair .textarea {
+  min-height: 100px;
+}
+.gapControlRepair {
+  gap: 8px 0;
+}
+
+.speandingLI {
+  background: #0000009e;
+  height: 70px;
+  width: 350px;
+  padding-top: 20px;
+}
+.hiddenNow {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: hidden;
+  width: 100wh;
+}
+.blur {
+  filter: blur(0px);
+}
+.IssuBtn {
+  background: #0a96b9;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  transition: background 0.2s linear;
+  cursor: pointer;
+}
+.IssuBtn:hover {
+  background: var(--quote);
+}
+.IssuBtn.active:hover {
+  background: var(--quote);
+}
+.headerTextarea {
+  min-height: calc(100% - 34px) !important;
+}
+.issuTableSelect {
+  height: calc(100vh - 117px - 55px - 46px - 8px - 240px - 10px);
+  margin-bottom: 10px;
+}
+/* .bottomTextarea{
+  min-height: 100% !important; 
+} */
+div.textarea {
+  height: calc(100% - 30px) !important;
+  min-height: calc(100% - 30px) !important;
+  min-height: calc(100% - 30px) !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+  padding: 20px;
+}
+.IssuBtn.active {
+  background: #6648ca;
+}
+.IssuBtnSelected {
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+  outline: none;
+  background: var(--bg-total);
+  background-image: none;
+  flex: 1 1;
+  padding: 0 0.5em;
+  padding: 8px 24px;
+  color: var(--text-input);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  border-radius: 0.25em;
+  overflow: hidden;
+  margin-bottom: 11px;
+}
+.IssuBtnSelected:last-of-type {
+  margin-bottom: 0;
+}
+.control-IssueSelected {
+  height: calc(100% - 30px);
+}
+.issuTableSelect .IoMdClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0a96b9;
+  width: 65px;
+  cursor: pointer;
+  font-size: 25px;
+  height: 100%;
+  transition: 0.25s all ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.editPostion {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.hightDefaultRepair {
+  min-height: 119px;
+  max-height: 119px;
+}
+/* @media screen and (max-width: 1200) {
+  .issuTableSelect {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .h-autoMD{
+    height: auto !important;
+  }
+  .h-autoMD .totalTax{
+    height: auto !important;
+  }
+} */
+@media screen and (max-width: 1200px) {
+  .repair .textarea {
+    min-height: 100px !important;
+    margin-bottom: 20px;
+  }
+  .h-auto-lg-100 {
+    height: auto;
+  }
+  .issuTableSelect {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .h-autoMD {
+    height: auto !important;
+  }
+  .h-autoMD .totalTax {
+    height: auto !important;
+  }
+  div.textarea {
+    height: 350px !important;
+  }
+  .control-IssueSelected {
+    height: 200px;
+  }
+  .repair .textarea.headerTextarea {
+    min-height: calc(100% - 30px) !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .repair .totalEditMd {
+    padding: 20px 8px !important;
+  }
+}
+.printControl {
+  transform: rotate(90deg);
+  transform-origin: center;
+  /* padding: 0 20px;
+  width: 99vh; */
+}
+.rotated-table {
+  height: 100vh; /* set width equal to viewport height */
+  width: 100vw; /* set height equal to viewport width */
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.rotated-table td {
+  width: 33%; /* set width of table cells */
+  height: 33%; /* set height of table cells */
+  text-align: center;
+  vertical-align: middle;
+  max-width: 300px;
+}
+.wPrint {
+  width: calc(100vh / 3 - 15px);
+}
+.wPrint2Col {
+  min-width: calc(100vh / 1.6 - 15px);
+}
+.wPrint3Col {
+  min-width: calc(100vh - 15px);
+}
+.w-70T {
+  width: 60%;
+}
+.w-20T {
+  width: 30%;
+}
+.rotated-table tr {
+  border: 0;
+}
+.w-fit {
+  width: fit-content;
+}
+@media screen and (max-height:670px) {
+  .issuTableSelect{
+    min-height: 300px;
+  }
+  
+}

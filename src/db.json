@@ -1,0 +1,464 @@
+{
+    "companies": [
+        {
+            "name": "Apple",
+            "imageUrl": "/images/models/iphone/web_ip13promax.png",
+            "id": 1
+        },
+        {
+            "name": "Samsung",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+            "id": 2
+        }
+    ],
+    "products": [
+        {
+            "name": "iPhone",
+            "imageUrl": "/images/models/iphone/web_ip13promax.png",
+            "companyId": 1,
+            "id": 1
+        },
+        {
+            "name": "Galaxy",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+            "companyId": 2,
+            "id": 2
+        }
+    ],
+    "series": [
+        {
+            "name": "iPhone",
+            "imageUrl": "/images/models/iphone/web_ip13promax.png",
+            "productId": 1,
+            "id": 1
+        },
+        {
+            "name": "S",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+            "productId": 2,
+            "id": 2
+        },
+        {
+            "name": "Note",
+            "imageUrl": "/images/models/samsung/web_note20.png",
+            "productId": 2,
+            "id": 3
+        },
+        {
+            "name": "Z",
+            "imageUrl": "/images/models/samsung/web_z-fold.png",
+            "productId": 2,
+            "id": 4
+        }
+    ],
+    "models": [
+        {
+            "name": "13 Pro Max",
+            "imageUrl": "/images/models/iphone/web_ip13promax.png",
+            "seriesId": 1,
+            "id": 1
+        },
+        {
+            "name": "13 Pro",
+            "imageUrl": "/images/models/iphone/web_ip13pro.png",
+            "seriesId": 1,
+            "id": 2
+        },
+        {
+            "name": "13",
+            "imageUrl": "/images/models/iphone/web_ip13.png",
+            "seriesId": 1,
+            "id": 3
+        },
+        {
+            "name": "13 Mini",
+            "imageUrl": "/images/models/iphone/web_ip13mini.png",
+            "seriesId": 1,
+            "id": 4
+        },
+        {
+            "name": "12 Pro Max",
+            "imageUrl": "/images/models/iphone/web_ip12promax.png",
+            "seriesId": 1,
+            "id": 5
+        },
+        {
+            "name": "12 Pro",
+            "imageUrl": "/images/models/iphone/web_ip12pro.png",
+            "seriesId": 1,
+            "id": 6
+        },
+        {
+            "name": "12",
+            "imageUrl": "/images/models/iphone/web_ip12.png",
+            "seriesId": 1,
+            "id": 7
+        },
+        {
+            "name": "12 Mini",
+            "imageUrl": "/images/models/iphone/web_ip12mini.png",
+            "seriesId": 1,
+            "id": 8
+        },
+        {
+            "name": "11 Pro Max",
+            "imageUrl": "/images/models/iphone/web_ip11promax.png",
+            "seriesId": 1,
+            "id": 9
+        },
+        {
+            "name": "11 Pro",
+            "imageUrl": "/images/models/iphone/web_ip11pro.png",
+            "seriesId": 1,
+            "id": 10
+        },
+        {
+            "name": "SE (2020)",
+            "imageUrl": "/images/models/iphone/web_ipse2020.png",
+            "seriesId": 1,
+            "id": 11
+        },
+        {
+            "name": "11",
+            "imageUrl": "/images/models/iphone/web_ip11.png",
+            "seriesId": 1,
+            "id": 12
+        },
+        {
+            "name": "XR",
+            "imageUrl": "/images/models/iphone/web_ipxr.png",
+            "seriesId": 1,
+            "id": 13
+        },
+        {
+            "name": "X",
+            "imageUrl": "/images/models/iphone/web_ipx.png",
+            "seriesId": 1,
+            "id": 14
+        },
+        {
+            "name": "XS",
+            "imageUrl": "/images/models/iphone/web_ipxs.png",
+            "seriesId": 1,
+            "id": 15
+        },
+        {
+            "name": "XS Max",
+            "imageUrl": "/images/models/iphone/web_ipxsmax.png",
+            "seriesId": 1,
+            "id": 16
+        },
+        {
+            "name": "8 Plus",
+            "imageUrl": "/images/models/iphone/web_ip8plus.png",
+            "seriesId": 1,
+            "id": 17
+        },
+        {
+            "name": "8",
+            "imageUrl": "/images/models/iphone/web_ip8.png",
+            "seriesId": 1,
+            "id": 18
+        },
+        {
+            "name": "7 Plus",
+            "imageUrl": "/images/models/iphone/web_ip7plus.png",
+            "seriesId": 1,
+            "id": 19
+        },
+        {
+            "name": "7",
+            "imageUrl": "/images/models/iphone/web_ip7.png",
+            "seriesId": 1,
+            "id": 20
+        },
+        {
+            "name": "6s Plus",
+            "imageUrl": "/images/models/iphone/web_ip6splus.png",
+            "seriesId": 1,
+            "id": 21
+        },
+        {
+            "name": "6s",
+            "imageUrl": "/images/models/iphone/web_ip6s.png",
+            "seriesId": 1,
+            "id": 22
+        },
+        {
+            "name": "6",
+            "imageUrl": "/images/models/iphone/web_ip6.png",
+            "seriesId": 1,
+            "id": 23
+        },
+        {
+            "name": "6 Plus",
+            "imageUrl": "/images/models/iphone/web_ip6plus.png",
+            "seriesId": 1,
+            "id": 24
+        },
+        {
+            "name": "5SE",
+            "imageUrl": "/images/models/iphone/web_ip5se.png",
+            "seriesId": 1,
+            "id": 25
+        },
+        {
+            "name": "5S",
+            "imageUrl": "/images/models/iphone/web_ip5s.png",
+            "seriesId": 1,
+            "id": 26
+        },
+        {
+            "name": "5C",
+            "imageUrl": "/images/models/iphone/web_ip5c.png",
+            "seriesId": 1,
+            "id": 27
+        },
+        {
+            "name": "S21 Ultra 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+            "seriesId": 2,
+            "id": 28
+        },
+        {
+            "name": "S21+ 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png",
+            "seriesId": 2,
+            "id": 29
+        },
+        {
+            "name": "S21 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21.png",
+            "seriesId": 2,
+            "id": 30
+        },
+        {
+            "name": "S21 FE 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png",
+            "seriesId": 2,
+            "id": 31
+        },
+        {
+            "name": "S20 Ultra 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+            "seriesId": 2,
+            "id": 32
+        },
+        {
+            "name": "S20+ 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+            "seriesId": 2,
+            "id": 33
+        },
+        {
+            "name": "S20 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+            "seriesId": 2,
+            "id": 34
+        },
+        {
+            "name": "S20FE 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+            "seriesId": 2,
+            "id": 35
+        },
+        {
+            "name": "S20",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+            "seriesId": 2,
+            "id": 36
+        },
+        {
+            "name": "S20 5G UW",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+            "seriesId": 2,
+            "id": 37
+        },
+        {
+            "name": "S10 5G",
+            "imageUrl": "/images/models/samsung/web_galaxy-s10-5g.png",
+            "seriesId": 2,
+            "id": 38
+        },
+        {
+            "name": "S10+",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys10plus.webp",
+            "seriesId": 2,
+            "id": 39
+        },
+        {
+            "name": "S10",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s10.png",
+            "seriesId": 2,
+            "id": 40
+        },
+        {
+            "name": "S10E",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s10e-1.png",
+            "seriesId": 2,
+            "id": 41
+        },
+        {
+            "name": "S9+",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s9-plus.png",
+            "seriesId": 2,
+            "id": 42
+        },
+        {
+            "name": "S9",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-s9-plus.png",
+            "seriesId": 2,
+            "id": 43
+        },
+        {
+            "name": "S8",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys8plus.webp",
+            "seriesId": 2,
+            "id": 44
+        },
+        {
+            "name": "S8+",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys8plus.webp",
+            "seriesId": 2,
+            "id": 45
+        },
+        {
+            "name": "S8 Active",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys8active.png",
+            "seriesId": 2,
+            "id": 46
+        },
+        {
+            "name": "S7 Active",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys7active.png",
+            "seriesId": 2,
+            "id": 47
+        },
+        {
+            "name": "S7",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys7.png",
+            "seriesId": 2,
+            "id": 48
+        },
+        {
+            "name": "S7 Edge",
+            "imageUrl": "/images/models/samsung/web_samsunggalaxys7edge.png",
+            "seriesId": 2,
+            "id": 49
+        },
+        {
+            "name": "Note 20",
+            "imageUrl": "/images/models/samsung/web_note20.png",
+            "seriesId": 3,
+            "id": 50
+        },
+        {
+            "name": "Note 20 Ultra",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-20.png",
+            "seriesId": 3,
+            "id": 51
+        },
+        {
+            "name": "Note 20 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png",
+            "seriesId": 3,
+            "id": 52
+        },
+        {
+            "name": "Note 20 Ultra 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png",
+            "seriesId": 3,
+            "id": 53
+        },
+        {
+            "name": "Note 10+ 5G",
+            "imageUrl": "/images/models/samsung/web_note-10-plus-5g.png",
+            "seriesId": 3,
+            "id": 54
+        },
+        {
+            "name": "Note 10+",
+            "imageUrl": "/images/models/samsung/web_note10plus.png",
+            "seriesId": 3,
+            "id": 55
+        },
+        {
+            "name": "Note 10 5G",
+            "imageUrl": "/images/models/samsung/web_note-10-plus-5g.png",
+            "seriesId": 3,
+            "id": 56
+        },
+        {
+            "name": "Note 10",
+            "imageUrl": "/images/models/samsung/web_note-10-plus-5g.png",
+            "seriesId": 3,
+            "id": 57
+        },
+        {
+            "name": "Note 10 Lite",
+            "imageUrl": "/images/models/samsung/web_note-10-lite.png",
+            "seriesId": 3,
+            "id": 58
+        },
+        {
+            "name": "Note 9",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-9.png",
+            "seriesId": 3,
+            "id": 59
+        },
+        {
+            "name": "Note 8",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-8.png",
+            "seriesId": 3,
+            "id": 60
+        },
+        {
+            "name": "Note FE",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-edge.png",
+            "seriesId": 3,
+            "id": 61
+        },
+        {
+            "name": "Note 7",
+            "imageUrl": "/images/models/samsung/web_samsungnote7.png",
+            "seriesId": 3,
+            "id": 62
+        },
+        {
+            "name": "Note 5",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-5.png",
+            "seriesId": 3,
+            "id": 63
+        },
+        {
+            "name": "Z FOLD 2 5G",
+            "imageUrl": "/images/models/samsung/web_z-fold.png",
+            "seriesId": 4,
+            "id": 64
+        },
+        {
+            "name": "FOLD 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-fold.png",
+            "seriesId": 2,
+            "id": 65
+        },
+        {
+            "name": "FOLD",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-fold.png",
+            "seriesId": 2,
+            "id": 66
+        },
+        {
+            "name": "Z FLIP",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-zflip.png",
+            "seriesId": 4,
+            "id": 67
+        },
+        {
+            "name": "Z FLIP 5G",
+            "imageUrl": "/images/models/samsung/web_samsung-galaxy-zflip-5g.png",
+            "seriesId": 4,
+            "id": 68
+        }
+    ]
+}

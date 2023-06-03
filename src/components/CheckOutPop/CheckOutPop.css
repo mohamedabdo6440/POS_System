@@ -1,0 +1,175 @@
+.CheckOutPop {
+  inset: 0;
+  background: rgba(0, 0, 0, 0.404);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1111111;
+}
+
+.CheckOutPop .popUpChild {
+  width: 80%;
+  max-height: 95%;
+  height: 95%;
+  position: relative;
+  padding: 0 0 10px;
+  background-color: var(--bg-color);
+  border-radius: 20px;
+}
+
+.CheckOutPop .span {
+  position: sticky;
+  padding: 10px 20px;
+  justify-content: end;
+  right: 0%;
+  top: -0%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--bg-total);
+}
+
+.CheckOutPop .span .iconPop {
+  color: rgb(179, 61, 61);
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headPop {
+  font-size: 20px;
+  color: var(--text-input);
+  cursor: auto;
+}
+
+.empty {
+  width: 30px;
+  height: 30px;
+}
+
+.popUpChild span,
+.popUpChild p {
+  transition: color 0.3s linear;
+}
+
+.popUpChild .iconPop:hover {
+  color: rgb(255, 0, 0) !important;
+}
+
+.popUpChild p:hover {
+  color: rgb(80, 235, 8) !important;
+}
+
+.rounded-r-0 {
+  border-top-right-radius: 0;
+}
+
+.CheckOutPop .borderRight {
+  border-right: 1px solid var(--bg-total) !important;
+}
+
+.fs-3rem {
+  font-size: 3.5rem;
+}
+
+.bg-455c74 {
+  background: var(--quote);
+}
+
+.quickCash {
+  border: 2px solid var(--bg-total);
+  cursor: pointer;
+  padding-left: 0 !important;
+  transition: background-color 0.3s linear;
+}
+
+.quickCash.active {
+  background-color: var(--bg-total);
+}
+
+.quickCash:hover {
+  background-color: var(--bg-total);
+}
+
+.gapQuickCash {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 15px;
+}
+
+.paymentMethod {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.paymentMethod .quickCash {
+  padding: 10px 10px !important;
+  border: none;
+}
+.controlWidthPayament{
+  width: 75%;
+}
+.min-h-200{
+  min-height: 200px;
+}
+.paymentMethod .quickCash .pay {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  background-color: var(--main-color);
+  color: white;
+  margin-bottom: 10px;
+}
+.totalBotderBottom input{
+  direction: rtl;
+  background: transparent;
+  color: inherit;
+  width: 100%;
+}
+.paymentMethod .quickCash .pay span {
+  display: flex;
+}
+.totalBotderBottom .inputStyleDesign input{
+  direction: ltr;
+
+}
+.notAllowed {
+  cursor: not-allowed;
+  background: var(--bg-total);
+}
+
+@media screen and (max-width: 767px) {
+  .gapQuickCash {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .totalEditMd {
+    padding: 50px 30px !important;
+  }
+
+  .paymentMethod {
+    justify-content: center;
+  }
+
+  .paymentMethod .quickCash {
+    padding: 10px 10px !important;
+  }
+
+  .paymentMethod .quickCash .pay {
+    width: 70px;
+    font-size: 40px;
+  }
+}

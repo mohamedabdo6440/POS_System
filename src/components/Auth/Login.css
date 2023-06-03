@@ -1,0 +1,112 @@
+.main {
+  min-height: 100vh;
+}
+.mainColor {
+  background-color: var(--bg-color);
+}
+.borderConter {
+  border-right: 2px solid var(--border-color-box);
+  border-top: 2px solid var(--border-color-box);
+}
+.hightControl {
+  min-height: 75vh;
+}
+.boxShadow {
+  box-shadow: -13px 25px 23px -17px rgb(0 0 0 / 0.25);
+}
+.w-80 {
+  width: 80%;
+}
+
+.w-40 {
+  width: 40%;
+}
+.formControl {
+  margin-bottom: 20px;
+}
+
+.word_login {
+  color: #13b9e2;
+  font-weight: 700;
+  font-size: 1.25rem;
+  user-select: none;
+  padding-bottom: 8rem;
+}
+.pt-32 {
+  padding-top: 8rem;
+}
+.pb-32 {
+  padding-bottom: 8rem;
+}
+.py-32 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.image_con {
+  background-color: var(--bg-box);
+}
+
+.inputStyle {
+  border: 2px solid var(--border-color-login);
+  border-bottom-color: #13b9e2;
+  width: 100%;
+}
+.inputStyle input {
+  padding-left: 10px;
+  background-color: transparent;
+}
+.inputStyle input {
+  padding-left: 10px;
+  background-color: transparent;
+  color: var(--text-input);
+}
+.inputStyle input::placeholder{
+  color: var(--text-input-Place) !important;
+}
+.iconLoignColor {
+  color: #bbbbbb;
+  display: flex;
+  transition: color 0.3s linear;
+}
+.conTrolDark {
+  top: 10px;
+  right: 10px;
+}
+label {
+  color: #6328e5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button {
+  background-color: #13b9e2;
+  border: 1px solid transparent;
+  color: white;
+  font-weight: 700;
+  padding: 8px 25px;
+  border-radius: 8px;
+  transition: border 0.3s linear, background-color 0.3s linear,
+    color 0.3s linear;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid #13b9e2;
+  color: #13b9e2;
+  font-weight: 700;
+}
+.login .logo{
+    width: 330px;
+    margin: auto;
+}
+@media screen and (max-width: 991px) {
+  .word_login {
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 661px) {
+    .login .logo{
+        width: 90%;
+        margin: auto;
+    }
+}

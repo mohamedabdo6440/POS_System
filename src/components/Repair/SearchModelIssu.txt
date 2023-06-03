@@ -1,0 +1,78 @@
+import React from "react";
+import { ImCheckmark } from "react-icons/im";
+import defaultImg from "../../images/defaultImg.png";
+import PopUp from "../PopUp/PopUp";
+const SearchModelIssu = ({
+  OpenPopUpIssu,
+  setOpenPopUpIssu,
+  Issu,
+  HandleProductSelected,
+}) => {
+  console.log(Issu);
+  return (
+    <PopUp
+      open={OpenPopUpIssu}
+      setOpen={setOpenPopUpIssu}
+      headPop="Select ISSU"
+    >
+      <div className="tableProduct tableEditNew mt-2  table-responsive  px-3 scrollStyle ">
+        <table className="table table-responsive tableMain tableMainSearch text-mainControl">
+          <thead>
+            <tr>
+              <th colSpan="3">
+                <h5 className="text-center ">Items name</h5>
+              </th>
+
+              <th className=" border-bottom-0" colSpan="2">
+                <h5 className=" border-end-0 || text-center">Selection</h5>
+              </th>
+            </tr>
+          </thead>
+          <tbody className="scrollStyle || overflow-auto || containTable ">
+            {Issu &&
+              Issu.map((pro, i) => {
+                return (
+                  <tr className="productRow" key={i}>
+                    <th colSpan="3">
+                      <div className="d-flex position-relative ||  srtHover  || align-items-center || gap-2 || hightTable || position-relative || borderRightControl">
+                        <div className="img position-relative">
+                          {pro.imageUrl ? (
+                            <img
+                              src={pro.imageUrl}
+                              className="opacity-00"
+                              alt=""
+                              onLoad={(e) => {
+                                e.target.style.opacity = "1";
+                              }}
+                            />
+                          ) : (
+                            <img src={defaultImg} alt="" className="blur" />
+                          )}
+                        </div>
+                        <p className="mb-0  controlWidthProduct hoverControls">
+                          {pro.str}
+                        </p>
+                      </div>
+                    </th>
+
+                    <th className="border-bottom-0 " colSpan="2">
+                      <p
+                        onClick={() => {
+                          HandleProductSelected(pro);
+                        }}
+                        className="fs-5  || d-flex || justify-content-center || align-items-center || text-center  hightTable || border-end-0 || cursor-pointer  || text-success || mb-0"
+                      >
+                        <ImCheckmark />
+                      </p>
+                    </th>
+                  </tr>
+                );
+              })}
+          </tbody>
+        </table>
+      </div>
+    </PopUp>
+  );
+};
+
+export default SearchModelIssu;

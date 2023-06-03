@@ -1,0 +1,35 @@
+.border-2-black{
+    border: 2px solid black;
+    color: black;
+}
+.blackPrint .transactionsTable h5{
+    border-color: black;
+    color: black;
+}
+.blackPrint tr{
+    border-color: black;
+}
+.blackPrint .transactionsTable .hightTable{
+    border-color: black;
+}
+.blackPrint tbody{
+    color: black;
+}
+.blackPrint .bgTact{
+    background-color: black;
+    color: black;
+}
+.blackPrint .w-Q{
+    background-color: black;
+    color: black;
+}
+.blackPrint .border-Purchase{
+    border-color: black;
+    color: black;
+}
+.blackPrint .transactionsTable{
+    height: auto !important;
+}
+.blackPrint tr th:nth-last-of-type(4){
+    max-width: 100px;
+}
